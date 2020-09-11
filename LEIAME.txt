@@ -1,0 +1,19 @@
+#################################################################################
+#                                                                            	#
+#	--------- Instruções para execução e compilação do programa ---------	#
+#                                                                            	#
+#################################################################################
+
+1 - Para compilar o programa utilizar o comando: gcc -o trab2 main.c pilha.c
+
+2 - Para executar é necessário indicar a quantidade de discos de discos:
+	2.1 - Para executar imprimindo os movimentos utilizar o comando: ./trab2 4 -v
+	      Em que 4 indica o número de discos.
+		  
+	2.2 - Para executar sem imprimir os movimentos utilizar apenas o comando: ./trab2 4 
+	      Em que 4 indica o número de discos.
+	
+3 - Para saber o tempo de execução do programa utilizar o comando: time ./ trab2 4
+    Em que 4 indica o número de discos.
+	
+4 - Para analisar os resultados utilizar o comando: cat resultados.txt
